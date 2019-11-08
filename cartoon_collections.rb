@@ -29,8 +29,8 @@ soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 def find_the_cheese(soup)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  soup.find do |maybe_cheese|
-    cheese_types.include?(maybe_cheese)
+  soup.find do |cheese|
+    cheese_types.include?(cheese)
   end
 end
 
