@@ -23,7 +23,7 @@ end
 
 long_planeteer_calls(calls)
 
-
+potentially_cheesy_items = %w[umbrella spinach cheddar helicopter]
 
 def find_the_cheese(potentially_cheesy_items)
   cheese = ["cheddar", "gouda", "camembert"]
