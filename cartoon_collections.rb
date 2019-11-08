@@ -25,10 +25,12 @@ long_planeteer_calls(calls)
 
 
 
+
+
 potentially_cheesy_items = %w[umbrella spinach cheddar helicopter]
 
 def find_the_cheese(potentially_cheesy_items)
-  cheeses = %w[gouda cheddar camembert]
+ cheese_types = ["cheddar", "gouda", "camembert"]
 
   potentially_cheesy_items.find do |maybe_cheese|
     cheeses.include?(maybe_cheese)
@@ -36,4 +38,4 @@ def find_the_cheese(potentially_cheesy_items)
 end
 
 find_the_cheese(potentially_cheesy_items)
-
+end
