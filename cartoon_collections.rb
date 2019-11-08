@@ -23,19 +23,29 @@ end
 
 long_planeteer_calls(calls)
 
-
-
-
-
 potentially_cheesy_items = %w[umbrella spinach cheddar helicopter]
 
 def find_the_cheese(potentially_cheesy_items)
- cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese = ["cheddar", "gouda", "camembert"]
 
   potentially_cheesy_items.find do |maybe_cheese|
-    cheeses.include?(maybe_cheese)
+    cheese.include?(maybe_cheese)
   end
 end
 
 find_the_cheese(potentially_cheesy_items)
-end
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ cheese_types = ["cheddar", "gouda", "camembert"]
+
+ 
